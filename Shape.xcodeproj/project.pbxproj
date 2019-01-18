@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693FA0E421F1A71D002155D4 /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FA0E321F1A71D002155D4 /* ShadowViewController.swift */; };
 		69946D4321E43BE20050CCA3 /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 69946D4221E43BE20050CCA3 /* ScreenShot.png */; };
 		69A0181B21DF5D3C00E7FC89 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A0181A21DF5D3C00E7FC89 /* PieChartView.swift */; };
 		69A0181D21DF5D6500E7FC89 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A0181C21DF5D6500E7FC89 /* PieChartViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		693FA0E321F1A71D002155D4 /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
 		69946D4221E43BE20050CCA3 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
 		69A0181A21DF5D3C00E7FC89 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		69A0181C21DF5D6500E7FC89 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				69A0181A21DF5D3C00E7FC89 /* PieChartView.swift */,
 				69AABD4221DDF15F00D89832 /* TabBarViewController.swift */,
 				69AABD3621DDD93E00D89832 /* MaskViewController.swift */,
+				693FA0E321F1A71D002155D4 /* ShadowViewController.swift */,
 				69AABD2B21DDD8BC00D89832 /* Assets.xcassets */,
 				69AABD2D21DDD8BC00D89832 /* LaunchScreen.storyboard */,
 				69AABD3021DDD8BC00D89832 /* Info.plist */,
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693FA0E421F1A71D002155D4 /* ShadowViewController.swift in Sources */,
 				69A0181B21DF5D3C00E7FC89 /* PieChartView.swift in Sources */,
 				69AABD3921DDD94F00D89832 /* DrawViewController.swift in Sources */,
 				69AABD3B21DDD95B00D89832 /* ShapeViewController.swift in Sources */,

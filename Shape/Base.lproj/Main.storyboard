@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="VZu-m2-nRq">
-                                <rect key="frame" x="137.5" y="164" width="100" height="266"/>
+                                <rect key="frame" x="137.5" y="164" width="100" height="338"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUK-wR-LRv">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
@@ -63,6 +63,17 @@
                                         <state key="normal" title="Mask"/>
                                         <connections>
                                             <segue destination="8NI-pr-wfh" kind="show" id="LBk-3Y-efM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uro-jM-wES">
+                                        <rect key="frame" x="0.0" y="288" width="100" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Wt3-qg-YwX"/>
+                                            <constraint firstAttribute="width" constant="100" id="tm5-bS-I30"/>
+                                        </constraints>
+                                        <state key="normal" title="Shadow"/>
+                                        <connections>
+                                            <segue destination="pR1-0m-Lam" kind="show" id="dWg-Dg-cbb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -110,7 +121,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEc-CW-YJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1974" y="913"/>
+            <point key="canvasLocation" x="2751" y="913"/>
+        </scene>
+        <!--Shadow View Controller-->
+        <scene sceneID="0p7-6o-QH3">
+            <objects>
+                <viewController id="pR1-0m-Lam" customClass="ShadowViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZjF-Z1-ivR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBr-G5-ohb">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.20160406827926636" green="0.30687877535820007" blue="0.53805166482925415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1lB-jb-Zmo"/>
+                                    <constraint firstAttribute="height" constant="200" id="wGP-Gn-06X"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RBr-G5-ohb" firstAttribute="centerY" secondItem="ZjF-Z1-ivR" secondAttribute="centerY" id="JXV-Yq-vwy"/>
+                            <constraint firstItem="RBr-G5-ohb" firstAttribute="centerX" secondItem="ZjF-Z1-ivR" secondAttribute="centerX" id="bQj-26-Y83"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mZx-Oe-3nF"/>
+                    </view>
+                    <connections>
+                        <outlet property="squareView" destination="RBr-G5-ohb" id="nuB-UF-Uqn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3sB-PL-7qD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3504.8000000000002" y="912.5937031484259"/>
         </scene>
         <!--Pie Chart View Controller-->
         <scene sceneID="EI5-ov-t5c">
@@ -155,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YZI-oY-9sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2701.5999999999999" y="911.69415292353835"/>
+            <point key="canvasLocation" x="2010" y="912"/>
         </scene>
         <!--Draw View Controller-->
         <scene sceneID="kp2-YS-eO7">
