@@ -2,4 +2,4 @@
 Make various shape with drawing and ShapeLayer
 
 
-![alt screenshot](https://github.com/myunggu/Shape/blob/master/Shape/ScreenShot.png)
+![alt screenshot](https://github.com/myunggu/ShapeDemo/blob/master/ShapeDemo/ScreenShot.png)
