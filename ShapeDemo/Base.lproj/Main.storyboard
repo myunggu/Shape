@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2tj-JR-a2o">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,11 +11,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="VZu-m2-nRq">
-                                <rect key="frame" x="137.5" y="164" width="100" height="338"/>
+                                <rect key="frame" x="250" y="120" width="100" height="338"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUK-wR-LRv">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
@@ -38,7 +34,7 @@
                                             <constraint firstAttribute="height" constant="50" id="4UR-8P-JHv"/>
                                             <constraint firstAttribute="width" constant="100" id="its-ON-MTL"/>
                                         </constraints>
-                                        <state key="normal" title="Shape"/>
+                                        <state key="normal" title="ShapeDemo"/>
                                         <connections>
                                             <segue destination="iWq-o0-3av" kind="show" id="0LF-TW-amW"/>
                                         </connections>
@@ -97,11 +93,11 @@
             <objects>
                 <viewController id="8NI-pr-wfh" customClass="MaskViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4r-io-Il4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0yf3K44" translatesAutoresizingMaskIntoConstraints="NO" id="0Yq-5g-g3P">
-                                <rect key="frame" x="16" y="116" width="343" height="193"/>
+                                <rect key="frame" x="129" y="72" width="343" height="193"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="193" id="Jus-9m-kXt"/>
                                     <constraint firstAttribute="width" constant="343" id="iAS-Fo-RfC"/>
@@ -128,11 +124,11 @@
             <objects>
                 <viewController id="pR1-0m-Lam" customClass="ShadowViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZjF-Z1-ivR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBr-G5-ohb">
-                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <color key="backgroundColor" red="0.20160406827926636" green="0.30687877535820007" blue="0.53805166482925415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="1lB-jb-Zmo"/>
@@ -160,11 +156,11 @@
             <objects>
                 <viewController id="5eq-dx-DTd" customClass="PieChartViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iko-si-zPz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4am-Ck-WHp" customClass="PieChartView" customModule="Shape" customModuleProvider="target">
-                                <rect key="frame" x="5.5" y="86" width="364" height="247"/>
+                                <rect key="frame" x="118" y="42" width="364" height="247"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="364" id="3A7-Tu-XMc"/>
@@ -172,7 +168,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlr-f7-R2O">
-                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                <rect key="frame" x="0.0" y="520" width="600" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="AxG-jg-eDX"/>
                                 </constraints>
@@ -205,11 +201,11 @@
             <objects>
                 <viewController id="z83-Ff-g2h" customClass="DrawViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pdm-Da-spl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1lu-zx-Iqz" customClass="DrawingView" customModule="Shape" customModuleProvider="target">
-                                <rect key="frame" x="37.5" y="164" width="300" height="200"/>
+                                <rect key="frame" x="150" y="120" width="300" height="200"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Y0A-OT-X61"/>
@@ -237,11 +233,11 @@
             <objects>
                 <viewController id="iWq-o0-3av" customClass="ShapeViewController" customModule="Shape" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ndX-ze-V3z">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Cn-cW-9nm">
-                                <rect key="frame" x="5.5" y="84" width="364" height="247"/>
+                                <rect key="frame" x="118" y="40" width="364" height="247"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="247" id="Qce-8E-IbS"/>
@@ -249,7 +245,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="pIU-Og-qKc">
-                                <rect key="frame" x="12.5" y="341" width="350" height="30"/>
+                                <rect key="frame" x="125" y="297" width="350" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSI-wL-EZe">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
@@ -288,7 +284,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="uaU-EJ-lxZ">
-                                <rect key="frame" x="25" y="381" width="325" height="30"/>
+                                <rect key="frame" x="138" y="337" width="325" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkQ-fB-Lbh">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
@@ -337,7 +333,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="1p5-Ex-pvK">
-                                <rect key="frame" x="12.5" y="421" width="350" height="30"/>
+                                <rect key="frame" x="125" y="377" width="350" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53v-E7-ouQ">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>

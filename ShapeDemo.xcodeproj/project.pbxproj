@@ -28,7 +28,7 @@
 		69946D4221E43BE20050CCA3 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
 		69A0181A21DF5D3C00E7FC89 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		69A0181C21DF5D6500E7FC89 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
-		69AABD2121DDD8BB00D89832 /* Shape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AABD2121DDD8BB00D89832 /* ShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AABD2421DDD8BB00D89832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AABD2621DDD8BB00D89832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69AABD2921DDD8BB00D89832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		69AABD1821DDD8BB00D89832 = {
 			isa = PBXGroup;
 			children = (
-				69AABD2321DDD8BB00D89832 /* Shape */,
+				69AABD2321DDD8BB00D89832 /* ShapeDemo */,
 				69AABD2221DDD8BB00D89832 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		69AABD2221DDD8BB00D89832 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69AABD2121DDD8BB00D89832 /* Shape.app */,
+				69AABD2121DDD8BB00D89832 /* ShapeDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69AABD2321DDD8BB00D89832 /* Shape */ = {
+		69AABD2321DDD8BB00D89832 /* ShapeDemo */ = {
 			isa = PBXGroup;
 			children = (
 				69AABD2421DDD8BB00D89832 /* AppDelegate.swift */,
@@ -88,15 +88,15 @@
 				69AABD3021DDD8BC00D89832 /* Info.plist */,
 				69946D4221E43BE20050CCA3 /* ScreenShot.png */,
 			);
-			path = Shape;
+			path = ShapeDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69AABD2021DDD8BB00D89832 /* Shape */ = {
+		69AABD2021DDD8BB00D89832 /* ShapeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69AABD3321DDD8BC00D89832 /* Build configuration list for PBXNativeTarget "Shape" */;
+			buildConfigurationList = 69AABD3321DDD8BC00D89832 /* Build configuration list for PBXNativeTarget "ShapeDemo" */;
 			buildPhases = (
 				69AABD1D21DDD8BB00D89832 /* Sources */,
 				69AABD1E21DDD8BB00D89832 /* Frameworks */,
@@ -106,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = Shape;
+			name = ShapeDemo;
 			productName = Shape;
-			productReference = 69AABD2121DDD8BB00D89832 /* Shape.app */;
+			productReference = 69AABD2121DDD8BB00D89832 /* ShapeDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69AABD1C21DDD8BB00D89832 /* Build configuration list for PBXProject "Shape" */;
+			buildConfigurationList = 69AABD1C21DDD8BB00D89832 /* Build configuration list for PBXProject "ShapeDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69AABD2021DDD8BB00D89832 /* Shape */,
+				69AABD2021DDD8BB00D89832 /* ShapeDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -319,16 +319,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Shape/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShapeDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = myunggukim.com.Shape;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.ShapeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -337,23 +337,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Shape/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShapeDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = myunggukim.com.Shape;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.ShapeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69AABD1C21DDD8BB00D89832 /* Build configuration list for PBXProject "Shape" */ = {
+		69AABD1C21DDD8BB00D89832 /* Build configuration list for PBXProject "ShapeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69AABD3121DDD8BC00D89832 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69AABD3321DDD8BC00D89832 /* Build configuration list for PBXNativeTarget "Shape" */ = {
+		69AABD3321DDD8BC00D89832 /* Build configuration list for PBXNativeTarget "ShapeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69AABD3421DDD8BC00D89832 /* Debug */,
